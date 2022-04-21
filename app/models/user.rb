@@ -6,6 +6,7 @@
 
 class User < ApplicationRecord
   has_many :twitter_accounts
+  has_many :tweets
   has_secure_password
   validates :email,
   format: { with: /\A[^@\s]+@[^@\s]+\z/, message: "Email invalid"  },

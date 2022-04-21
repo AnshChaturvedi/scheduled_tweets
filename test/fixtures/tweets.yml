@@ -2,14 +2,14 @@
 
 one:
   user: one
-  twitter_account_belongs_to: MyString
+  twitter_account: one
   body: MyText
-  publish_at: 2022-04-20 15:04:45
+  publish_at: 2022-04-20 18:34:59
   tweet_id: MyString
 
 two:
   user: two
-  twitter_account_belongs_to: MyString
+  twitter_account: two
   body: MyText
-  publish_at: 2022-04-20 15:04:45
+  publish_at: 2022-04-20 18:34:59
   tweet_id: MyString
